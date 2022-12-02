@@ -1,0 +1,41 @@
+BRANCH
+é uma ramificação do código
+
+Origin é o repositório remoto GitHub
+Master é o repositório local PC
+
+
+EVITAR COMENTAR TUDO NA MASTER
+
+master > commit > local
+origin > push > remoto
+
+O que é branch?
+é uma maneira que o git disponibiliza para separar versões do projeto, gerenciar
+melhor o projeto.
+
+- Quando criamos um novo projeto ele inicia sempre na Branch main
+-  Branch é tipo uma linha do tempo
+
+
+OBS: SEMPRE CRIAR UMA BRANCH APARTI DA BRANCH MAIN 
+Criando Branch:
+git branch > lista todas as branch que há no projeto 
+
+git branch "nome da branch" > cria uma nova branch
+
+
+Mudando de Branch:
+git checkout "Nome da branch" > Muda de branch
+git checkout -b "Nome da branch" Cria e já muda para branch nova
+
+Deletando branch:
+git branch -d "Nome da branch" > Deleta a branch
+
+Unir branch:
+git merge "nome da branch" > unir a branch ao main
+
+
+Atualizar branch:
+Na branch que está desatualizada voce deve dar um git merge main
+

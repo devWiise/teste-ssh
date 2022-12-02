@@ -1,0 +1,16 @@
+
+GIT
+git init - vai criar um repositorio git na pasta selecionada
+git add . - adiciona os itens em um area temporaria
+git status - mostra o status do projeto
+git commit -m - Esse comando serve para salvar uma nova versão no git
+git branch -M main - há versões do git que coloca como master com esse comando ela vai sempre ser a main
+git remote add origin https://github.com/devWiise/pratic-methodogy-css.git
+git push -u origin main - comando que serve para enviar os arquivos para o github
+
+==== SALVAR UMA NOVA VERSÃO DO CÓDIGO NO GITHUB =====
+git status
+git add . 
+git commit -m 'Hoje eu modifiquei o projeto'
+git push 
+
